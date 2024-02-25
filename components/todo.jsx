@@ -2,7 +2,7 @@
 import React, { useEffect,useState } from 'react'
 import TodoList from "@/components/Todolist"
 import {getAllTodos,addTodo} from "@/utils/supabaseFunc.js"
-function todo() {
+function Todo() {
   //配列が返却されるので配列を受け取れるようにしておく
   const [todos,setTodos] = useState([]);
   const [title,setTitle] =useState("");
@@ -47,4 +47,4 @@ function todo() {
 };
 
 
-export default todo
+export default Todo
