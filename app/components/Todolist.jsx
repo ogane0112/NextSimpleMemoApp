@@ -3,7 +3,7 @@ import React from 'react'
 import {getAllTodos,addTodo,deleteTodo} from "@/utils/supabaseFunc.js"
 
 
-const todolist = (props) => {
+const Todolist = (props) => {
 const {todos,setTodos} = props;
 const handleDlete = async(id)=>{
     await deleteTodo(id);
@@ -28,4 +28,4 @@ const handleDlete = async(id)=>{
   )
 }
 
-export default todolist
+export default Todolist
