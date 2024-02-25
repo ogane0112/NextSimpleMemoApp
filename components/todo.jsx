@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect,useState } from 'react'
-import TodoList from "@/components/todolist"
+import TodoList from "@/components/Todolist"
 import {getAllTodos,addTodo} from "@/utils/supabaseFunc.js"
 function todo() {
   //配列が返却されるので配列を受け取れるようにしておく
