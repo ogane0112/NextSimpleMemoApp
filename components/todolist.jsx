@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import {getAllTodos,addTodo,deleteTodo} from "@/utils/supabaseFunc.js"
 
